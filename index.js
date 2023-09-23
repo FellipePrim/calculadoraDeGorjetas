@@ -14,5 +14,9 @@ function update(){
     //console.log(billEach)
 
     document.getElementById('tipPercent').innerHTML = tipPercent + ' %'
+    document.getElementById('tipValue').innerHTML = '$ ' + tipValue
+    document.getElementById('totalWithTip').innerHTML ='$ ' + billTotal
+    document.getElementById('splitValue').innerHTML = split 
+    document.getElementById('billEach').innerHTML ='$ ' + billEach 
 }
 
